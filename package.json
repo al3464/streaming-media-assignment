@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.3.2"
+  },
+  "description": "assignment",
+  "main": "./main/file.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"No Tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al3464/streaming-media-assignment.git"
+  },
+  "author": "ArcherLai",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/al3464/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/al3464/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
